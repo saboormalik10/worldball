@@ -15,7 +15,6 @@ import { useCountdownTimer } from '../components/homepage/hooks/useCountdownTime
 import { useStepNavigation } from '../components/homepage/hooks/useStepNavigation';
 
 const HomePage: React.FC = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
   const [currentDesign, setCurrentDesign] = useState(0); // 0: original, 1: jackpots, 2: how it works, 3: become a partner, 4: global lottery
 
   // Custom hooks for state management
@@ -30,7 +29,6 @@ const HomePage: React.FC = () => {
 
   // Handler for dot navigation - now navigates directly to the corresponding design
   const handleDotClick = (index: number) => {
-    setActiveIndex(index);
     setCurrentDesign(index); // Set the design to match the dot index
   };
 

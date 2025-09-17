@@ -161,7 +161,7 @@ const EmailVerificationModal: React.FC<EmailVerificationModalProps> = ({
 
                     {/* Email Message */}
                     <p className="text-gray-400 text-center mb-6 text-sm">
-                        We've sent a code to {email}
+                        We&apos;ve sent a code to {email}
                     </p>
 
                     {/* Verification Code Input */}
@@ -196,7 +196,7 @@ const EmailVerificationModal: React.FC<EmailVerificationModalProps> = ({
 
                     {/* Resend Message */}
                     <div className="text-center text-xs">
-                        <span className="text-gray-400">Didn't receive an email? </span>
+                        <span className="text-gray-400">Didn&apos;t receive an email? </span>
                         {isResendActive ? (
                             <button onClick={handleResend} className="text-red-500 hover:text-red-400">
                                 Resend

@@ -34,7 +34,7 @@ const Header: React.FC = () => {
     setIsSigninModalOpen(false);
   };
 
-  const handleSignup = (email: string, password: string) => {
+  const handleSignup = (email: string, _password: string) => {
     // Here you would typically make an API call to register the user
     // For now, we'll just open the verification modal
     setUserEmail(email);
