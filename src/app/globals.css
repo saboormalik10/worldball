@@ -75,4 +75,17 @@ body {
   /* Partner design tablet styles - 2x smaller */
   .tablet-range-text-3xl { font-size: 32px !important; line-height: 30px !important; }
   .tablet-range-mb-6 { margin-bottom: 1.5rem !important; }
+  
+  /* Header icon tablet styles */
+  .tablet-range-w-4 { width: 1rem !important; }
+  .tablet-range-h-4 { height: 1rem !important; }
+}
+
+/* SVG color styling */
+.svg-white {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.svg-icon {
+  filter: brightness(0) invert(1);
 }
