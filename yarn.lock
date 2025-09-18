@@ -376,6 +376,18 @@
   resolved "https://registry.yarnpkg.com/@nolyfill/is-core-module/-/is-core-module-1.0.39.tgz#3dc35ba0f1e66b403c00b39344f870298ebb1c8e"
   integrity sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==
 
+"@rive-app/canvas@2.31.5":
+  version "2.31.5"
+  resolved "https://registry.yarnpkg.com/@rive-app/canvas/-/canvas-2.31.5.tgz#4e87eeef1401031c6e80ed29baf1bd9c831df05f"
+  integrity sha512-rVWN1RHM7nflvmJCOhrN/Q3d2Sasf8/J8EhArxB7/rFvby/96AREwkXlmKAMxgar8PzN9hyCKyanY5TmPAPd9A==
+
+"@rive-app/react-canvas@^4.23.3":
+  version "4.23.3"
+  resolved "https://registry.yarnpkg.com/@rive-app/react-canvas/-/react-canvas-4.23.3.tgz#19fef599787a174405cfee1e3a2cdeef388ce5c2"
+  integrity sha512-qvy896Joes4w1yTMo8BPdF2JfPKZ5rawGy0JEX2UXFM5VjMHc/NG46BIbdnBrk9ozX/HQ2uRWTp4hNkybJzgSQ==
+  dependencies:
+    "@rive-app/canvas" "2.31.5"
+
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@rtsao/scc/-/scc-1.1.0.tgz#927dd2fae9bc3361403ac2c7a00c32ddce9ad7e8"
